@@ -6,10 +6,10 @@ from tkinter.filedialog import askopenfilename
 import cv2
 from PIL import Image, ImageTk
 
-from average_filter import average_filter
-from contrast_stretching import contrast_stretching
-from histogram_equilization import histo_eq
-from median_filtering import median_filter
+from filters.average_filter import average_filter
+from filters.contrast_stretching import contrast_stretching
+from filters.histogram_equilization import histo_eq
+from filters.median_filtering import median_filter
 
 # Global variables
 root = Tk()
